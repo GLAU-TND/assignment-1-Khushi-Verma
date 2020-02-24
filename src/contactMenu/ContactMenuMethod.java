@@ -63,5 +63,16 @@ public class ContactMenuMethod {
                 System.out.println("-------- * -------- * -------- * --------");
             }
         }
+        public void searchContact() {
+            System.out.println("You could search for a contact from their first names:");
+            Scanner scan1 = new Scanner(System.in);
+            String firstName = scan1.next();
+
+            int count = 0;
+            for (int i = 0; i < list.size(); i++) {
+                if (list.get(i).getName().equals(firstName)) {
+                    count++;
+                }
+            }
     }
 }
