@@ -28,4 +28,14 @@ public class ContactMenuMethod {
         Collections.sort(list);
 
     }
+    private void addMobile() {
+        System.out.print("do you want to add another contact? (y/n) : ");
+        Scanner scan = new Scanner(System.in);
+        String add = scan.next();
+        if (add.equals("y")) {
+            mobileNo.add(scan.nextInt());
+            addMobile();
+        } else {
+        }
+    }
 }
