@@ -1,5 +1,5 @@
 package contactMenu;
 
-public class Main {
+public class Main extends ContactMenuMethod {
 
 }
