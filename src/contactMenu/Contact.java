@@ -58,6 +58,6 @@ public class Contact implements Comparable<Contact> {
 
     @Override
     public int compareTo(Contact o) {
-        return 0;
+        return name.compareTo(contact.name);
     }
 }
