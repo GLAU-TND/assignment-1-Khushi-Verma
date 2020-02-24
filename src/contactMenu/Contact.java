@@ -8,4 +8,12 @@ public class Contact {
     private String lastName;
     private Contact contact;
     private String email;
+
+    public Contact(String name, String lastName, String email, LinkedList<Integer> mobileNo) {
+        this.name = name;
+        this.lastName = lastName;
+        this.email = email;
+        this.mobileNo = mobileNo;
+
+    }
 }
